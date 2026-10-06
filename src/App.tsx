@@ -1,4 +1,5 @@
 import Escalera from "./component/escalera";
+import "./App.css";
 
 function App() {
   return (
