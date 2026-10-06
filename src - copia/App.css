@@ -1,0 +1,137 @@
+.escalera-box {
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.escalera-box h1 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.formulario {
+  margin-bottom: 16px;
+}
+
+.formulario label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444444;
+  font-weight: bold;
+}
+
+.fila-input {
+  display: flex;
+  gap: 8px;
+}
+
+.fila-input input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.fila-input input:focus {
+  border-color: #0066cc;
+}
+
+.fila-input button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fila-input button:hover {
+  background-color: #0052a3;
+}
+
+.error {
+  color: #cc0000;
+  font-size: 13px;
+  margin: 6px 0 0 0;
+}
+
+.ejemplos {
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #666666;
+}
+
+.ejemplos span {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.botones-ejemplos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.botones-ejemplos button {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #333333;
+}
+
+.botones-ejemplos button:hover {
+  background-color: #e6e6e6;
+}
+
+.botones-ejemplos button.activo {
+  background-color: #0066cc;
+  color: #ffffff;
+  border-color: #0066cc;
+}
+
+.resultado {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.resultado-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.etiqueta {
+  font-size: 12px;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.valor {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222222;
+}
+
+.valor-escalera {
+  color: #008844;
+}
